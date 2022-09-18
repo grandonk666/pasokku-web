@@ -27,24 +27,44 @@
     <link rel="stylesheet" href="/style.css" />
     <script src="/script.js" defer></script>
 
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png" />
+    <link rel="manifest" href="/icon/site.webmanifest" />
+    <link rel="mask-icon" href="/icon/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="/icon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-config" content="/icon/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+
     <title>Pasokku</title>
+    <meta property="og:title" content="Pasokku" />
+    <meta name="twitter:title" content="Pasokku" />
+
+    <meta name="description" content="Pasokku is a service to buy raw materials with guaranteed quality and affordable prices for the community and entrepreneurs" />
+    <meta property="og:description" content="Pasokku is a service to buy raw materials with guaranteed quality and affordable prices for the community and entrepreneurs" />
+    <meta name="twitter:description" content="Pasokku is a service to buy raw materials with guaranteed quality and affordable prices for the community and entrepreneurs" />
+
+    <meta name="image" content="/img/logo-about.png" />
+    <meta property="og:image" content="/img/logo-about.png" />
+    <meta name="twitter:image" content="/img/logo-about.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@site" />
+    <meta name="twitter:creator" content="@handle" />
   </head>
   <body>
     <nav class="navbar">
       <div class="nav-logo">
         <a href="#home">
-          <img src="/img/logo.svg" alt="Logo" />
-          <div>
-            <h1 class="logo-text">Pasoku</h1>
-            <p>Supply for Everyone</p>
-          </div>
+          <img src="/img/logo.png" alt="Logo" />
         </a>
       </div>
       <ul class="nav-links">
         <li class="nav-item"><a href="#home">Home</a></li>
-        <li class="nav-item"><a href="#products">Products</a></li>
+        <li class="nav-item"><a href="#product">Products</a></li>
         <li class="nav-item"><a href="#about">About Us</a></li>
-        <li class="nav-item"><a class="btn" href="#contact">Contact Us</a></li>
+        <li class="nav-item"><a class="btn" href="https://wa.me/6281213340677" target="_blank">Contact Us</a></li>
       </ul>
       <div class="humberger-menu">
         <div class="bar-1"></div>
@@ -54,18 +74,17 @@
     </nav>
 
     <main>
-      <div class="container about section">
+      <div id="home" class="container about section">
         <div class="about-desc">
           <h2>What is Pasokku ?</h2>
           <p>Pasokku is a service to buy raw materials with guaranteed quality and affordable prices for the community and entrepreneurs</p>
         </div>
         <div class="about-img">
-          <img src="/img/logo-about.svg" alt="Pasokku" />
-          <p>Pasokku</p>
+          <img src="/img/logo-about.png" alt="Pasokku" />
         </div>
       </div>
 
-      <div class="container value section">
+      <div id="about" class="container value section">
         <h2 class="section-title">Our Value</h2>
         <div class="value-list">
           <div class="value-item">
@@ -87,7 +106,7 @@
         </div>
       </div>
 
-      <div class="container product section">
+      <div id="product" class="container product section">
         <h2 class="section-title">Products</h2>
         <div class="product-list">
           <img src="/img/product-1.jpg" alt="" />
@@ -113,11 +132,7 @@
       <div class="footer-info container section">
         <div class="nav-logo footer-logo">
           <a href="#home">
-            <img src="/img/logo.svg" alt="Logo" />
-            <div>
-              <h1 class="logo-text">Pasoku</h1>
-              <p>Supply for Everyone</p>
-            </div>
+            <img src="/img/logo.png" alt="Logo" />
           </a>
         </div>
         <div class="footer-desc">
@@ -125,14 +140,11 @@
             <div class="address-title">
               <span class="icon"><i class="fa-solid fa-location-dot"></i></span>Address
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque consectetur expedita eum in officia commodi ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos adipisci praesentium eos dicta rem blanditiis
-              cupiditate
-            </p>
+            <p>Bekasi, Indonesia</p>
           </div>
           <div class="social">
             <p class="social-title">Social Media</p>
-            <a class="social-media" href="#">
+            <a class="social-media" href="https://www.instagram.com/pasokku.official/" target="_blank">
               <span class="icon"><i class="fa-brands fa-instagram"></i></span>Pasokku_Indonesia
             </a>
             <a class="social-media" href="#">
