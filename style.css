@@ -175,15 +175,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 4rem;
+  padding-top: 7rem;
 }
 
 .about-desc {
-  width: 60%;
+  width: 50%;
 }
 
 .about-desc h2 {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
@@ -194,7 +194,7 @@ body {
 }
 
 .about-img {
-  width: 30%;
+  width: 40%;
   text-align: center;
 }
 
@@ -354,7 +354,7 @@ body {
     height: 6rem;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.25rem 4rem;
+    padding: 1.75rem 4rem;
   }
 
   .nav-logo h1 {
@@ -390,8 +390,8 @@ body {
   }
 
   .about {
-    padding-top: 12rem;
-    padding-bottom: 4rem;
+    padding-top: 14rem;
+    padding-bottom: 6rem;
     text-align: left;
   }
 
@@ -414,7 +414,7 @@ body {
   }
 
   .about-img img {
-    width: 35%;
+    width: 70%;
   }
 
   .about-img p {
@@ -492,5 +492,11 @@ body {
 
   .social-media .icon {
     font-size: 1.5rem;
+  }
+
+  .copyright {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.75rem;
   }
 }
