@@ -7,10 +7,22 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+      integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <link rel="stylesheet" href="/style.css" />
     <script src="/script.js" defer></script>
@@ -42,13 +54,10 @@
     </nav>
 
     <main>
-      <div class="container about">
+      <div class="container about section">
         <div class="about-desc">
           <h2>What is Pasokku ?</h2>
-          <p>
-            Pasokku is a service to buy raw materials with guaranteed quality
-            and affordable prices for the community and entrepreneurs
-          </p>
+          <p>Pasokku is a service to buy raw materials with guaranteed quality and affordable prices for the community and entrepreneurs</p>
         </div>
         <div class="about-img">
           <img src="/img/logo-about.svg" alt="Pasokku" />
@@ -56,7 +65,7 @@
         </div>
       </div>
 
-      <div class="container value">
+      <div class="container value section">
         <h2 class="section-title">Our Value</h2>
         <div class="value-list">
           <div class="value-item">
@@ -78,7 +87,7 @@
         </div>
       </div>
 
-      <div class="container product">
+      <div class="container product section">
         <h2 class="section-title">Products</h2>
         <div class="product-list">
           <img src="/img/product-1.jpg" alt="" />
@@ -87,9 +96,51 @@
         </div>
       </div>
 
-      <div class="container partner">
+      <div class="container partner section">
         <h2 class="section-title">Our Partner</h2>
+        <div class="partner-list">
+          <div class="partner-item">
+            <img src="/img/partner-1.png" alt="Technopark UPN “Veteran” Jawa Timur Inkubator Bisnis Teknologi" />
+            <p>Technopark</p>
+            <p>UPN “Veteran” Jawa Timur</p>
+            <p>Inkubator Bisnis Teknologi</p>
+          </div>
+        </div>
       </div>
     </main>
+
+    <footer class="footer">
+      <div class="footer-info container section">
+        <div class="nav-logo footer-logo">
+          <a href="#home">
+            <img src="/img/logo.svg" alt="Logo" />
+            <div>
+              <h1 class="logo-text">Pasoku</h1>
+              <p>Supply for Everyone</p>
+            </div>
+          </a>
+        </div>
+        <div class="footer-desc">
+          <div class="address">
+            <div class="address-title">
+              <span class="icon"><i class="fa-solid fa-location-dot"></i></span>Address
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque consectetur expedita eum in officia commodi ipsam</p>
+          </div>
+          <div class="social">
+            <p class="social-title">Social Media</p>
+            <a class="social-media" href="#">
+              <span class="icon"><i class="fa-brands fa-instagram"></i></span>Pasokku_Indonesia
+            </a>
+            <a class="social-media" href="#">
+              <span class="icon"><i class="fa-brands fa-linkedin"></i></span>PasokkuIndonesia
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright container">
+        <p>&copy; Copyright 2022 Pasokku Indonesia</p>
+      </div>
+    </footer>
   </body>
 </html>
